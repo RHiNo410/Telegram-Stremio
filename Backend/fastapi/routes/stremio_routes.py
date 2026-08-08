@@ -30,7 +30,7 @@ router = APIRouter(prefix="/stremio", tags=["Stremio Addon"])
 templates = Jinja2Templates(directory="Backend/fastapi/templates")
 
 #----- Addon configuration
-ADDON_NAME = "Telegram"
+ADDON_NAME = "Jerin"
 ADDON_VERSION = __version__
 PAGE_SIZE = 15
 
